@@ -1,0 +1,9 @@
+[package]
+name = "a02-client-messages"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mini-redis = { workspace = true }
+tokio = { workspace = true }
+bytes = { workspace = true }

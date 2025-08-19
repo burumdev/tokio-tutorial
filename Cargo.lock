@@ -11,6 +11,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "a02-client-messages"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "mini-redis",
+ "tokio",
+]
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
