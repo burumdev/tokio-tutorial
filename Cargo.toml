@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["a01-hello", "a02-client-messages", "a03-io", "mini-redis-server"]
+members = ["a01-hello", "a02-client-messages", "a03-io", "a04-network-io", "mini-redis-server"]
 
 [workspace.dependencies]
 tokio = { version = "1", features = ["full"] }
