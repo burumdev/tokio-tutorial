@@ -50,6 +50,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "a07-select"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
