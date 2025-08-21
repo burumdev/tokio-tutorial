@@ -1,0 +1,9 @@
+[package]
+name = "a08-streams"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { workspace = true }
+mini-redis = { workspace = true }
+tokio-stream = "0.1.17"
