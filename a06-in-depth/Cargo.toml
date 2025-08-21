@@ -1,0 +1,8 @@
+[package]
+name = "a06-in-depth"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3.31"
+tokio = { workspace = true }
